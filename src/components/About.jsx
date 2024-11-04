@@ -3,7 +3,7 @@ import logo from '../assets/logo.png';
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-tl from-[#addee9] to-[#6bd2d3] border-solid border-[1px] border-[#0a9698] flex flex-col md:flex-row items-center px-10 py-14 sm:space-x-6 text-lg mt-0 md:mt-10 rounded-lg">
+    <div name = 'about' className="bg-gradient-to-tl from-[#addee9] to-[#6bd2d3] border-solid border-[1px] border-[#0a9698] flex flex-col md:flex-row items-center px-10 py-14 sm:space-x-6 text-lg mt-0 md:mt-10 rounded-lg">
       {/* Content */}
       <div className="cnt flex-1">
         <h2 className="text-2xl font-bold border-b-4 border-[#0a9698] rounded-sm mt-5 w-28 justify-self-center md:justify-self-start text-center mb-8">

@@ -74,12 +74,15 @@ const GallerySlider = () => {
         spaceBetween={20}
         loop={true}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 10000, disableOnInteraction: false }}
+        autoplay={{ delay: 1000, disableOnInteraction: false }}
         modules={[Pagination, Autoplay]}
         className="w-full h-48"
         breakpoints={{
+          350: {
+            slidesPerView: 2,
+          },
           640: { // Mobile view
-            slidesPerView: 1,
+            slidesPerView: 3,
           },
           768: { // Medium screens
             slidesPerView: 6,
@@ -105,7 +108,7 @@ const GallerySlider = () => {
       <Modal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
-        className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-90 z-50"
+        className="fixed inset-0 flex items-center justify-center bg-transparent bg-opacity-90 z-50"
         overlayClassName="fixed inset-0 bg-black bg-opacity-75 z-50"
       >
         <div className="relative w-[90%] max-w-4xl">
@@ -116,7 +119,7 @@ const GallerySlider = () => {
           />
           <button
             onClick={closeModal}
-            className="absolute top-4 right-4 border-2 border-green-600 text-green-600 bg-white rounded-full p-3 text-3xl font-bold hover:bg-gray-300 cursor-pointer"
+            className="w-12 h-12 absolute top-4 right-4 border-2 border-green-600 text-green-600 bg-white rounded-full text-3xl font-bold hover:bg-gray-300 cursor-pointer"
           >
             &times;
           </button>
