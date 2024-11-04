@@ -40,11 +40,13 @@ const Navbar = () => {
     ];
   return (
 
-    <div className='flex justify-between items-center w-full h-20 px-4 fixed bg-gradient-to-tl from-[#addee9] to-[#6bd2d3]'>
-        <div className='flex justify-between items-center gap-3'>
-        <img className='h-18 w-20' src={logo} />
-        <h2 className='text-2xl md:text-3xl font-semibold font-signature ml-2'>Paryavaran <br/> Shakti</h2>
-        </div>
+    <div className='flex justify-between items-center w-full h-20 px-4 sticky top-0 bg-gradient-to-tl from-[#addee9] to-[#6bd2d3] text-slate-800 z-10 shadow-sm shadow-slate-400'>
+      <div className='flex items-center gap-2 pl-0 md:pl-7'>
+        <img className='h-16 w-16 p-0' src={logo} alt="Paryavaran Shakti Logo" />
+        <h2 className='text-2xl md:text-3xl font-semibold font-signature ml-1 mt-1'>
+          Paryavaran <br /> Shakti
+        </h2>
+      </div>
 
         <ul className="hidden w-[45%] gap-3 text-1.7xl md:flex">
         {links.map(({ id, link , name }) => (

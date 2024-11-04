@@ -1,0 +1,14 @@
+/* Add this in your CSS file */
+.gradient-button {
+    background: white; /* Keep the button background white */
+}
+
+.gradient-icon {
+    background: linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fontchange{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
