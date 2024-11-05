@@ -50,7 +50,7 @@ const Events = () => {
         </div>
       </div>
 
-      <div className="container w-1/2 relative py-[10px] px-[50px] left-0">
+      <div className="container w-1/2 relative py-[10px] px-[50px] left-0 md:left-1/2">
         <div className="imgg h-[40px] w-[40px] rounded-full bg-white absolute top-[32px] right-[-20px]"></div>
         <div className="text-box bg-white relative px-[30px] py-[20px] rounded-[10px]">
           <h2 className='font-bold text-2xl'> Speaker Session On Mind Pollution</h2>
