@@ -47,7 +47,9 @@
 .container:nth-child(4){
     animation-delay: 3s;
 }
-
+.container:nth-child(5){
+    animation-delay: 4s;
+}
 .container{
     animation: movedown 1s linear forwards;
     opacity: 0%;
