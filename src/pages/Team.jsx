@@ -246,6 +246,15 @@ const Team = () => {
           linkedin="https://in.linkedin.com/in/jay-joshi-75b75124b"
           instagram="https://www.instagram.com/jayy.03/"
         />
+
+        <TeamMember
+          image={tt1}
+          name="Ravi Jat"
+          role="Member"
+          linkedin="https://www.linkedin.com/in/ravi-jat-420287245/"
+          instagram="https://www.instagram.com/ravi_jaat_2050/"
+        />
+
         <TeamMember
           image={tt3}
           name="Dhiraj Kushwaha"
