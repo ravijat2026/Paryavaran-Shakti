@@ -32,7 +32,7 @@ const Events = () => {
       <div className="container w-1/2 relative py-[10px] px-[50px]  left-0 md:left-1/2">
         <div className="imgg h-[40px] w-[40px] rounded-full bg-white absolute top-[32px] left-[-20px]"></div>
         <div className="text-box bg-white relative px-[30px] py-[20px] rounded-[10px]">
-          <h2 className='font-bold text-2xl'>Plantation Activity Date</h2>
+          <h2 className='font-bold text-2xl'>Plantation Activity</h2>
           <small className='font-medium text-lg text-gray-500'>5 sept 2023</small>
           <p className='text-md'>Paryavaran Shakti's first tree plantation event at IIIT Kota’s permanent campus, emphasizing the importance of greening spaces for environmental sustainability.</p>
           <span className='rightc-arrow'></span>
@@ -42,7 +42,7 @@ const Events = () => {
       <div className="container w-1/2 relative py-[10px] px-[50px] left-0">
         <div className="imgg h-[40px] w-[40px] rounded-full bg-white absolute top-[32px] right-[-20px]"></div>
         <div className="text-box bg-white relative px-[30px] py-[20px] rounded-[10px]">
-          <h2 className='font-bold text-2xl'>Building A Better World Date</h2>
+          <h2 className='font-bold text-2xl'>Building A Better World</h2>
           <small className='font-medium text-lg text-gray-500'>22 Apr 2023</small>
           <p className='text-md'> An online seminar featuring Mr. Shaktiraj Daudra, a distinguished alumnus of IIIT Kota, who discussed the creativity of nature and its significance in human life. 
           </p>
@@ -51,13 +51,13 @@ const Events = () => {
       </div>
 
       <div className="container w-1/2 relative py-[10px] px-[50px] left-0 md:left-1/2">
-        <div className="imgg h-[40px] w-[40px] rounded-full bg-white absolute top-[32px] right-[-20px]"></div>
+        <div className="imgg h-[40px] w-[40px] rounded-full bg-white absolute top-[32px] left-[-20px]"></div>
         <div className="text-box bg-white relative px-[30px] py-[20px] rounded-[10px]">
           <h2 className='font-bold text-2xl'> Speaker Session On Mind Pollution</h2>
           <small className='font-medium text-lg text-gray-500'>27 March 2022</small>
           <p className='text-md'> A motivational seminar in NITI Sabhagar focused on mind control, self-confidence, and ethics, led by Mr. Chakravarti Das. 
           </p>
-          <span className='leftc-arrow'></span>
+          <span className='rightc-arrow'></span>
         </div>
       </div>
 
