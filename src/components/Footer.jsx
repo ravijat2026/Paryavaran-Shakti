@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaChevronCircleRight, FaPhone, FaEnvelope, FaMapMarkedAlt, FaLinkedin, FaGithub, FaTwitter, FaHeart } from 'react-icons/fa';
 import logo from '../assets/logo.png'
-
+var current_year=new Date().getFullYear()
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-tl from-[#addee9] to-[#6bd2d3] py-8">
@@ -69,7 +69,7 @@ const Footer = () => {
       </div>
 
       <h1 className="text-center text-lg font-semibold mt-4 pt-4 border-t-2 border-[#119cff33]">
-        @2024 All Rights Reserved. <FaHeart className="inline text-red-600 animate-pulse" /> by <a href="#" className="text-green-800">Paryavaran Shakti</a>
+        @{current_year} All Rights Reserved. <FaHeart className="inline text-red-600 animate-pulse" /> by <a href="#" className="text-green-800">Paryavaran Shakti</a>
       </h1>
     </footer>
   );
