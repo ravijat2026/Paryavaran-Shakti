@@ -20,7 +20,10 @@ import dt10 from '../components/images/team/nitesh.jpg';
 import dt11 from '../components/images/team/nischay.jpg';
 import dt12 from '../components/images/team/jay.jpg';
 import smt1 from '../components/images/team/manjot.jpg';
-
+import tt1Duplicate from '../components/images/team/ravi.jpg';
+import tt3Duplicate from '../components/images/team/dhiraj.jpg';
+import tt2Duplicate from '../components/images/team/yash.jpg';
+import tt4Duplicate from '../components/images/team/dhiraj.jpg';
 const TeamMember = ({ image, name, role, linkedin, instagram }) => {
   return (
     <div className="group card bg-white relative w-[300px] h-[300px] rounded-[70px] transition-all duration-500 shadow-lg drop-shadow-lg hover:scale-110">
@@ -68,7 +71,7 @@ const TeamMember = ({ image, name, role, linkedin, instagram }) => {
 
 const Team = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center gap-10">
+    <div className="min-h-screen flex flex-col items-center gap-10 mb-8">
       {/* Our Team Section */}
       <div className="text-2xl font-bold text-center border-b-4 border-[#0a9698] rounded-sm my-10">
         Our Team
@@ -99,13 +102,6 @@ const Team = () => {
           role="Member"
           linkedin="https://www.linkedin.com/in/yash-jangir-748214313/"
           instagram="https://www.instagram.com/theyashjangir_04/"
-        />
-        <TeamMember
-          image={tt3}
-          name="Dhiraj Kushwaha"
-          role="Member"
-          linkedin="https://www.linkedin.com/in/dhirajkushwaha/"
-          instagram="https://www.instagram.com/thedhirajkushwaha/"
         />
       </div>
 
@@ -190,13 +186,7 @@ const Team = () => {
           linkedin="https://in.linkedin.com/in/mukul-katewa-33b74b216"
           instagram="https://www.instagram.com/mukul_katewa"
         />
-        <TeamMember
-          image={tt2}
-          name="Yash Jangir"
-          role="Member"
-          linkedin="https://www.linkedin.com/in/yash-jangir-748214313/"
-          instagram="https://www.instagram.com/theyashjangir_04/"
-        />
+
         <TeamMember
           image={dt6}
           name="Drishti Dhandel"
@@ -225,13 +215,6 @@ const Team = () => {
           linkedin="https://www.linkedin.com/in/anshika-sahu-26a394329/"
           instagram="https://www.instagram.com/_anshika._.sahu/"
         />
-        <TeamMember
-          image={tt3}
-          name="Dhiraj Kushwaha"
-          role="Member"
-          linkedin="https://www.linkedin.com/in/dhirajkushwaha/"
-          instagram="https://www.instagram.com/thedhirajkushwaha/"
-        />
       </div>
 
       {/* Video Editing Team Section */}
@@ -246,8 +229,9 @@ const Team = () => {
           linkedin="https://in.linkedin.com/in/jay-joshi-75b75124b"
           instagram="https://www.instagram.com/jayy.03/"
         />
+
         <TeamMember
-          image={tt3}
+          image={tt4Duplicate}
           name="Dhiraj Kushwaha"
           role="Member"
           linkedin="https://www.linkedin.com/in/dhirajkushwaha/"

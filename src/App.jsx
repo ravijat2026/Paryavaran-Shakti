@@ -8,11 +8,13 @@ import Team from './pages/Team'
 import Contact from './pages/Contact'
 import Blog from './pages/Blog'
 import Events from './pages/Events'
+import ScrollToTop from './components/SrollToTop'
 
 const App = () => {
   return (
     <>
       <Navbar/>
+      <ScrollToTop />
       <Routes>
         <Route path='/' element = {<Home/>} />
         <Route path='/vision' element = {<Vision/>} />
