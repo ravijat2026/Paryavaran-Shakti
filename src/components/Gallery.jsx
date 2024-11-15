@@ -6,21 +6,18 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import { Pagination, Autoplay } from 'swiper/modules';
 
-import img1 from '../components/images/img1.jpg';
-import img2 from '../components/images/img2.jpg';
-import img3 from '../components/images/img3.jpg';
-import img4 from '../components/images/img4.jpg';
+import img1 from '../components/images/img1.webp';
+import img2 from '../components/images/img2.webp';
+import img3 from '../components/images/img3.webp';
+import img4 from '../components/images/img4.webp';
 import img5 from '../components/images/img5.jpg';
-import img6 from '../components/images/img6.jpg';
-import img7 from '../components/images/img7.jpg';
-import img8 from '../components/images/img8.jpg';
-import img9 from '../components/images/img9.jpg';
-import img10 from '../components/images/img10.jpg';
-import img11 from '../components/images/img11.jpg';
-
+import img6 from '../components/images/img6.webp';
+import img7 from '../components/images/img7.webp';
+import img8 from '../components/images/img8.webp';
+import img9 from '../components/images/img9.webp';
 Modal.setAppElement('#root');
 
-const galleryImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
+const galleryImages = [img1, img2, img3, img4, img5, img6, img7, img8,img9];
 
 const GallerySlider = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaChevronCircleRight, FaPhone, FaEnvelope, FaMapMarkedAlt, FaLinkedin, FaGithub, FaTwitter, FaHeart } from 'react-icons/fa';
+import { FaChevronCircleRight, FaPhone, FaEnvelope, FaMapMarkedAlt, FaLinkedin, FaTwitter, FaHeart,FaInstagram } from 'react-icons/fa';
 import logo from '../assets/logo.png'
 var current_year=new Date().getFullYear()
 const Footer = () => {
@@ -52,11 +52,11 @@ const Footer = () => {
             <FaMapMarkedAlt className="inline size-6 pr-2 text-gray-700" /> Kota, India-325003
           </p>
           <div className="flex mt-4 space-x-4">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="bg-gray-200 text-[#02094b] hover:bg-transparent hover:text-green-600 transition-all rounded-full p-4">
+            <a href="https://www.linkedin.com/in/paryavaran-shakti-club-b88ba6269/" target="_blank" rel="noopener noreferrer" className="bg-gray-200 text-[#02094b] hover:bg-transparent hover:text-green-600 transition-all rounded-full p-4">
               <FaLinkedin />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="bg-gray-200 text-[#02094b] hover:bg-transparent hover:text-green-600 transition-all rounded-full p-4">
-              <FaGithub />
+            <a href="https://www.instagram.com/paryavaranshakti_iiitkota/" target="_blank" rel="noopener noreferrer" className="bg-gray-200 text-[#02094b] hover:bg-transparent hover:text-green-600 transition-all rounded-full p-4">
+              <FaInstagram />
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer" className="bg-gray-200 text-[#02094b] hover:bg-transparent hover:text-green-600 transition-all rounded-full p-4">
               <FaEnvelope />
