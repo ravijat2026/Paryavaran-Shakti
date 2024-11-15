@@ -3,7 +3,7 @@ import React from 'react';
 
 const Faq = () => {
   return (
-    <div className='w-full mt-10'>
+    <div className='w-full mt-10 mb-20'>
         <section class="bg-gradient-to-tl from-[#addee9] to-[#6bd2d3] text-gray-900 py-10 h-auto w-full rounded-lg">
             <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
                 <h2 class="mb-20 text-4xl font-bold text-center border-b-4 border-[#0a9698] rounded-sm w-fit relative md:left-[50%] md:translate-x-[-50%] left-[-20px]">Frequently Asked Questions</h2>
