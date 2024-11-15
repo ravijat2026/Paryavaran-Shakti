@@ -21,7 +21,7 @@ const Vision = () => {
           />
         </div>
 
-          <div className="w-full md:w-1/2 p-10 mx-[9vw] rounded-md font-medium text-lg">
+          <div className="w-full md:w-1/2 p-10 mx-[9vw] rounded-md font-medium text-lg bg-white">
           College Life is a new chapter in everyone's life, with new aspirations, friends, hope, and an environment. Alongside this come new challenges such as academic stress, loneliness, homesickness, and negative influences, leading to potential deterioration of mental health and an unstable mind. Our club, "Paryavaran Shakti," is a unique initiative aimed at keeping students motivated and stress-free. We believe that mental health is just as important as physical health, especially for students facing unique challenges during their academic journey. Our vision is to create a supportive community where every student feels safe to talk about their feelings and struggles.
           </div>
     </div>
